@@ -1,0 +1,205 @@
+
+@media (max-width: 1024px) {
+    .logo-text{
+        display: none;
+    }
+    .toggle-btn{
+        display: block;
+    }
+    .btn-close{
+        display: block;
+    }
+    .nav-right{
+        position: absolute;
+        top: -100%;
+        right: 0;
+        width: 100%;
+        height: 80vh;
+        background-color: #111;
+        z-index: 111;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s ease;
+    }
+    #nav-close{
+        display: block;
+        color: var(--text-white);
+        font-family: var(--f-inter);
+        font-size: 12px;
+        font-weight: 500;
+        cursor: pointer;
+        border: 2px solid #fff;
+        width: max-content;
+        padding: 10px 20px 10px 20px;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+    .nav-logo{
+        border-right: 2px solid #fff;
+        padding: 20px 54px 20px 31px;
+    }
+
+    .nav-link{
+        height: 50px;
+        width: 200px;
+        border: none;
+    }
+
+    .year-top{
+        margin-top: 160px;
+        margin-bottom: 30px;
+    }
+    .show-menu{
+        top: 0;
+        transition: all 0.5s ease;
+    }
+    .b-left{
+        display: none;
+    }
+    .b-sub{
+        display: block;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .b-title{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 768px){
+    .header .container{
+        margin-top: 30px;
+    } 
+    .nav-logo{
+        margin: 0 10px;
+    }
+    .title{
+        font-size: 32px;
+        font-weight: 300;
+    }
+    .year-top{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .hero-right{
+        margin-top: 40px;
+    }
+    .digital{
+        margin: 64px 0 84px 0;
+    }
+    .d-year,
+    .d-star{
+        padding-bottom: 15px;
+    }
+    .digital-right{
+        display: none !important;
+    }
+    .b-left{
+        display: none;
+    }
+    .content-2{
+        display: none;
+    }
+    .star-icon{
+        display: block;
+        margin: 65px 0 26px 0;
+    }
+    .b-object .object-img{
+        height: auto;
+        padding-left: 0;
+    }
+    .b-object .object-img img:nth-child(2){
+        position: absolute;
+        left: 40px;
+        transform: rotate(50deg);
+    }
+    
+    .b-object .object-img img:nth-child(3){
+        position: absolute;
+        left: 80px;
+        transform: rotate(120deg);
+    }
+    .b-object .obj-content{
+        padding: 35px 25px 35px 25px;
+    }
+    .e-text{
+        display: none;
+    }
+    .expertize{
+        background: url(../images/e-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 48px 0 64px 0;
+    }
+    .e-bottom{
+        margin-top: 150px;
+    }.footer-top{
+        margin-bottom: 104px;
+    }
+    .footer{
+        margin: 60px 0 33px 0;
+    }
+}
+
+@media (max-width: 430px) {
+    .service-box{
+        width: 50%;
+    }
+    .nav-logo{
+        border-right: 2px solid #fff;
+        padding: 20px 25px 20px 18px;
+    }
+    .main-text .sub-text{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 0;
+    }
+    .year-top{
+        margin-top: 0px;
+        margin-bottom: 56px;
+    }
+    .main-text h1{
+        font-size: 32px;
+        font-weight: 300;
+    }
+    .main-text .sub-text span{
+        font-size: 12px;
+    }
+    .hero-right{
+        align-items: start;
+    }
+    .year-top{
+        justify-content: end;
+    }
+    .d-year,
+    .d-star{
+        padding-bottom: 15px;
+    }
+    .digital{
+        margin: 64px 0 84px 0;
+    }
+    .about-card{
+        padding: 28px 24px;
+    }.about-card h2{
+        margin: 0 0 23px 0;
+        font-size: 32px;
+    }
+    .e-bottom{
+        margin-top: 43px;
+    }
+    .e-bottom h2{
+        margin-bottom: 32px;
+    }
+    .footer-bottom{
+        border: var(--border);
+        padding: 15px 0;
+    }
+    .footer-bottom{
+        margin: 0 ;
+    }
+}

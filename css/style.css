@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root{
+    --f-inter: 'Inter Tight', sans-serif;
+    --text-light: #E4E4E4;
+    --text-white: #FFF;
+    --bg-grey: #202020;
+    --bg-body: #111;
+    --border: 2px solid #FFF;
+}
+
+
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Unbounded', sans-serif;
+    background-color: var(--bg-body);
+    user-select: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-text{
+    background: linear-gradient(91deg, #C6F1F7 -4.01%, #F983E9 36.14%, #B877FF 77.44%, #C2E9CD 106.11%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title{
+    font-size: 54px;
+    font-weight: 300;
+}
+
+.content-text{
+    color: var(--text-light);
+    font-family: var(--f-inter);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Header Start */
+
+.top-main{
+    background: url(../images/bg-top.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .container{
+    margin-top: 41px;
+} 
+
+.header .container .row{
+    display: flex;
+    justify-content: space-between;
+    height: 134px;
+}
+
+.toggle-btn{
+    display: none;
+    color: var(--text-white);
+    font-family: var(--f-inter);
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#nav-close{
+    display: none;
+}
+
+/* .show-menu{
+    top: 0;
+} */
+
+.nav-left,
+.nav-right{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav-logo{
+    border: var(--border);
+    border-right: 0;
+    padding: 54px 54px 56px 31px;
+}
+
+.nav-logo .logo{
+    color: var(--text-white);
+    font-size: 16px;
+    font-weight: 600;
+    gap: 11px;
+}
+
+.nav-logo .logo-text{
+    color: var(--text-white);
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.nav-link{
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border: var(--border);
+}
+
+.nav-right .nav-link a{
+    color: var(--text-white);
+    text-align: center;
+    font-family: var(--f-inter);
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+.about{
+    width: 200px;
+    border: var(--border);
+    border-right: 0;
+}
+
+.services{
+    width: 260px;
+    border: var(--border);
+    border-right: 0;
+}
+
+.cases{
+    width: 198px;
+    border: var(--border);
+    border-right: 0;
+}
+
+.team{
+    width: 149.788px;
+    border: var(--border);
+    border-right: 0;
+}
+
+.web{
+    width: 70.1px;
+    border: var(--border);
+}
+
+.boost{
+    width: 291px;
+    border: var(--border);
+    border-right: 0;
+    border-top: 0;
+}
+
+.products{
+    width: 208px;
+    border: var(--border);
+    border-right: 0;
+    border-top: 0;
+}
+
+.book{
+    width: 132px;
+    border: var(--border);
+    border-right: 0;
+    border-top: 0;
+}
+
+.blog{
+    width: 247px;
+    border: var(--border);
+    border-top: 0;
+}
+
+/* Header End */
+
+/* Hero Start */
+
+.hero{
+    padding-bottom: 62px;
+}
+
+.year-top{
+    margin-top: 225px;
+    margin-bottom: 67px;
+    justify-content: start;
+}
+
+.year-top span{
+    font-size: 32px;
+    font-weight: 250;
+}
+
+.year-top p{
+    font-family: var(--f-inter);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.main-text{
+    width: 100%;
+    position: relative;
+}
+
+.main-text h1{
+    position: relative;
+}
+
+.main-text .sub-text span{
+    width: 300px;
+    height: 40px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main-text .sub-text{
+    gap: 40px;
+    align-items: center;
+}
+
+.hero-right .desc p{
+    width: 216px;
+    font-family: var(--f-inter);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Hero End */
+
+/* Services Strat */
+
+.service{
+    padding: 80px 0 68px 0;
+    opacity: 0.8;
+    background: rgba(0, 0, 0, 0.70);
+}
+
+.service-box h2{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.service-box .bottom-line{
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+/* Services End */
+
+/* Digital Section Start */
+
+.digital{
+    margin: 104px 0 158px 0;
+}
+
+.d-box{
+    width: 241px;
+    height: 276px;
+    background-color: var(--bg-grey);
+    overflow: hidden;
+}
+
+.d-box img{
+    width: 216px;
+    height: 216px;
+    transform: rotate(-164.701deg);
+    animation: spin infinite 10s;
+    user-select: none;
+}
+
+.d-box p{
+    margin-bottom: 33px;
+    font-family: var(--f-inter);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Digital Section End */
+
+/* About Section Start */
+
+.about-card{
+    padding: 44px 48px;
+}
+
+.about-card h2{
+    margin: 60px 0 38px 0;
+    color: var(--text-white);
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.about-card p{
+    color: var(--text-light);
+    font-family: var(--f-inter);
+    font-size: 14px;
+    font-weight: 400;
+    width: 276.221px;
+}
+
+.about-card:nth-child(1){
+    background: url(../images/card-bg1.png), lightgray -305.113px -574.272px / 167.686% 587.167%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-card:nth-child(2){
+    background: url(../images/card-bg2.png), lightgray -305.113px -574.272px / 167.686% 587.167%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-card:nth-child(3){
+    background: url(../images/card-bg3.png), lightgray -305.113px -574.272px / 167.686% 587.167%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-card:nth-child(4){
+    background: url(../images/card-bg4.png), lightgray -305.113px -574.272px / 167.686% 587.167%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* About Section End */
+
+/* Business Section Start */
+
+.business{
+    margin: 140px 0 122px 0;
+}
+
+.b-sub{
+    display: none;
+}
+
+.b-title{
+    margin-bottom: 83px;
+}
+
+.b-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.b-object{
+    border: 2px solid #FFF;
+}
+
+.b-object .object-img{
+    height: 145px;
+    border-bottom: 2px solid #FFF;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 21px;
+}
+
+.b-object .object-img img{
+    width: 106px;
+    height: 106px;
+}
+
+.b-object .object-img img:nth-child(2){
+    position: absolute;
+    left: 55px;
+    transform: rotate(50deg);
+}
+
+.b-object .object-img img:nth-child(3){
+    position: absolute;
+    left: 90px;
+    transform: rotate(120deg);
+}
+
+.b-object .obj-content{
+    padding: 36px 51px 47px 51px;
+}
+
+.b-object .obj-content h3{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.star-icon{
+    display: none;
+}
+
+/* Business Section End */
+
+/* Expertize Section Start */
+
+.expertize{
+    background: url(../images/e-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 84px 0 64px 0;
+}
+
+.expertize p{
+    color: #FFF;
+    font-family: var(--f-inter);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.e-bottom{
+    margin-top: 312px;
+}
+
+.e-bottom h2{
+    margin: 0;
+}
+
+.e-bottom p{
+    font-family: var(--f-inter);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Expertize Section End */
+
+/* Footer Start */
+.footer{
+    margin: 97px 0 60px 0;
+}
+
+.footer-top{
+    margin-bottom: 130px;
+}
+
+.footer-bottom{
+    border: var(--border);
+    padding: 15px 33px;
+}
+
+.footer-logo a{
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    gap: 11px;
+}
+
+.footer-link a{
+    text-align: center;
+    font-family: var(--f-inter);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* Footer End */
+
+
+
+@keyframes spin {
+    100%{
+        rotate: 360deg;
+    }
+}
